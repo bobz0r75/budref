@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html data-ng-app="budref">
+<html>
 	<head>
 		<meta charset="utf-8"/>
-		<link rel="stylesheet" type="text/css" href="<?= get_template_directory_uri() ?>/css/style.css" />
-		<script type="text/javascript" src="<?= get_template_directory_uri() ?>/js/lib/angularjs/angular.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="/wp-content/themes/budref/style.css" />
+		<script type="text/javascript" src="/wp-content/themes/budref/js/lib/requirejs/require.min.js"></script>
+		<script type="text/javascript" src="/wp-content/themes/budref/js/lib/jquery/jquery.min.js"></script>
+		<script type="text/javascript" src="/wp-content/themes/budref/js/lib/angularjs/angular.min.js"></script>
+		<script type="text/javascript" src="/wp-content/themes/budref/js/logger.js"></script>
+		<script type="text/javascript" src="/wp-content/themes/budref/js/budref.js"></script>
+		
 	</head>
-	<body data-ng-controller="<?= $GLOBALS['controller'] ?>">
-		<div class="budref-layout-transparent mdl-layout mdl-js-layout">
+	<body data-ng-controller="<?= $GLOBALS['page'] ?>Controller">
+		<div class="budref-layout-transparent mdl-layout mdl-js-layout" data-ng-class="{}">
 			<header class="mdl-layout__header mdl-layout__header--transparent">
 				<div class="mdl-layout__header-row">
 					<!-- Title -->

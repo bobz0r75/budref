@@ -1,5 +1,5 @@
 @import url("fonts.css");
-@import url("material-indigo-red.min.css");
+@import url("material.blue_grey-red.min.css");
 
 body {
 	background-color: rgb(250,250,250);
@@ -7,7 +7,10 @@ body {
 
 .budref-layout-transparent {
 	/* background: url('../img/mainpage.jpg') center / cover; */
-	background-color: #9999ff;
+	background-color: #37474F;
 	width: 100%;
-	height: 250px;
+}
+
+.budref-layout-transparent.mainpage {
+	/* height: 250px; */
 }
