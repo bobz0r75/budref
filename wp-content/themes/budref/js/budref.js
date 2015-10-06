@@ -67,21 +67,6 @@ function getNecessaryControllers() {
 }
 
 /**
- * Performs google login
- *
- * @param googleUser The actual google user
- * @author bence.demeter
- */
-function onSignIn(googleUser) {
-	// Useful data for your client-side scripts:
-	var profile = googleUser.getBasicProfile();
-	logger.debug("Got Google profile: " + JSON.stringify(profile));
-	// The ID token you need to pass to your backend:
-	var id_token = googleUser.getAuthResponse().id_token;
-	logger.debug("ID Token: " + id_token);
-};
-
-/**
  * Begins the AngularJS bootstrap process
  */
 angular.element(document).ready(function () {

@@ -8,7 +8,6 @@
 		<script type="text/javascript" src="/wp-content/themes/budref/js/lib/angularjs/angular.min.js"></script>
 		<script type="text/javascript" src="/wp-content/themes/budref/js/logger.js"></script>
 		<script type="text/javascript" src="/wp-content/themes/budref/js/budref.js"></script>
-		
 	</head>
 	<body data-ng-controller="<?= $GLOBALS['page'] ?>Controller">
 		<div class="budref-layout-transparent mdl-layout mdl-js-layout" data-ng-class="{}">
