@@ -12,12 +12,11 @@
 	<body data-ng-controller="<?= $GLOBALS['page'] ?>Controller">
 		<div class="budref-layout-transparent mdl-layout mdl-js-layout" data-ng-class="{}">
 			<header class="mdl-layout__header mdl-layout__header--transparent">
-				<div class="mdl-layout__header-row">
-					<!-- Title -->
+				<div class="mdl-layout__header-row vertical-absmiddle">
+					
 					<span class="mdl-layout-title">Budakalászi Református Egyház</span>
-					<!-- Add spacer, to align navigation to the right -->
 					<div class="mdl-layout-spacer"></div>
-					<!-- Navigation -->
+					
 					<nav class="mdl-navigation">
 						<a class="mdl-navigation__link" href="#">Magunkról</a>
 						<a class="mdl-navigation__link" href="#">Csatlakozz!</a>

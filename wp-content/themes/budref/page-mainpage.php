@@ -10,4 +10,9 @@ get_header(); ?>
 
 Ez itten a fooldal :)
 
+<div>
+	<span class="material-icons mainpage">verified_user</span>
+	<span class="material-icons mainpage">volume_up</span>
+</div>
+
 <?php get_footer(); ?>
