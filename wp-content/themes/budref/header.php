@@ -12,7 +12,7 @@
 	<body data-ng-controller="<?= $GLOBALS['page'] ?>Controller">
 		<div class="budref-layout-transparent mdl-layout mdl-js-layout" data-ng-class="{}">
 			<header class="mdl-layout__header mdl-layout__header--transparent">
-				<div class="mdl-layout__header-row vertical-absmiddle">
+				<div class="mdl-layout__header-row">
 					
 					<span class="mdl-layout-title">Budakalászi Református Egyház</span>
 					<div class="mdl-layout-spacer"></div>
