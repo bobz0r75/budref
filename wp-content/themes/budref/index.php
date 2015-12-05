@@ -1,5 +1,5 @@
 <?php 
-	$GLOBALS['controller'] = "mainpageController";	
+	$GLOBALS['page'] = "mainpage";	
 	get_header(); ?>
 
 <?php get_footer(); ?>
